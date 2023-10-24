@@ -13,6 +13,6 @@ struct todolistApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: [AppIdea.self, AppFeature.self], inMemory: true )
+        .modelContainer(for: [AppIdea.self, AppFeature.self], inMemory: false )
     }
 }

@@ -10,6 +10,7 @@ import SwiftData
 
 struct EditAppIdeaView: View {
     @Bindable var idea: AppIdea
+    @Environment(\.modelContext) private var modelContext
     
     @State private var newFeatureDescription = ""
     var body: some View {
@@ -26,6 +27,16 @@ struct EditAppIdeaView: View {
                     }
                 ForEach(idea.features) { feature in
                     Text(feature.detailedDescription)
+                        .contextMenu(ContextMenu(menuItems: {
+                            Button(role: .destructive) {
+                                idea.features.removeAll {$0 == feature}
+                                // Est-ce vraiment utile puisqu'il y a la suppression en cascade ?
+                                modelContext.delete(feature)
+                            } label: {
+                                Label("Delete", systemImage: "trash")
+                            }
+
+                        }))
                 }
             }
         }
