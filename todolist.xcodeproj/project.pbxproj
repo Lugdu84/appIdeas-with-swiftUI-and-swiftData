@@ -23,6 +23,7 @@
 		28AEF7E62AE71B9F004E8165 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AEF7E52AE71B9F004E8165 /* Preview Assets.xcassets */; };
 		28AEF7EE2AE71D94004E8165 /* AppIdea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEF7ED2AE71D94004E8165 /* AppIdea.swift */; };
 		28AEF7F02AE71E49004E8165 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEF7EF2AE71E49004E8165 /* AppFeature.swift */; };
+		28AF679E2AE95BBA00980DA6 /* ToggleFavoriteIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF679C2AE95BAB00980DA6 /* ToggleFavoriteIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		28AEF7E52AE71B9F004E8165 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28AEF7ED2AE71D94004E8165 /* AppIdea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIdea.swift; sourceTree = "<group>"; };
 		28AEF7EF2AE71E49004E8165 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		28AF679C2AE95BAB00980DA6 /* ToggleFavoriteIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleFavoriteIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				28591EED2AE84D120039B57D /* AppIdeasWidgets.swift */,
 				28591EEF2AE84D130039B57D /* Assets.xcassets */,
 				28591EF12AE84D130039B57D /* Info.plist */,
+				28AF679C2AE95BAB00980DA6 /* ToggleFavoriteIntent.swift */,
 			);
 			path = AppIdeasWidgets;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				28591EFA2AE852A40039B57D /* AppFeature.swift in Sources */,
 				28591EEE2AE84D120039B57D /* AppIdeasWidgets.swift in Sources */,
 				28591EEC2AE84D120039B57D /* AppIdeasWidgetsBundle.swift in Sources */,
+				28AF679E2AE95BBA00980DA6 /* ToggleFavoriteIntent.swift in Sources */,
 				28591EF92AE84D640039B57D /* AppIdea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
